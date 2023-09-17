@@ -1,0 +1,34 @@
+.dashboard {
+  color: #7683a0;
+
+  .ant-card-body:first-child {
+    position: relative;
+    padding-right: 190px;
+  }
+
+  h2 {
+    color: #202f53;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+  }
+
+  .ant-card-head {
+    border: 0px;
+    font-size: 1.3em;
+  }
+
+  h6 {
+    color: #202f53;
+  }
+
+  .ant-timeline .ant-timeline-item-head-blue {
+    background-color: #3b70e9;
+    color: #3b70e9;
+    border-color: #3b70e9;
+  }
+
+  ul {
+    list-style-type: decimal;
+    color: #7683a0;
+  }
+}

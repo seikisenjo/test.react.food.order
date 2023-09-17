@@ -1,0 +1,83 @@
+$blue-1: #dbe5fd !default; 
+$blue-2: #a5bffa !default;
+$blue-3: #6f99f7 !default;
+$blue-4: #4b7ff5 !default;
+$blue-5: #3b70e9 !default; 
+$blue-6: #3463ce !default; 
+$blue-7: #2957c1 !default; 
+$blue-8: #0b3697 !default; 
+$blue-9: #202f53 !default;
+
+$blues: () !default;
+$blues: map-merge(
+  (
+    '1': $blue-1,
+    '2': $blue-2,
+    '3': $blue-3,
+    '4': $blue-4,
+    '5': $blue-5,
+    '6': $blue-6,
+    '7': $blue-7,
+    '8': $blue-8,
+    '9': $blue-9,
+  ),
+  $blues
+);
+
+$grey-1: #ffffff !default;
+$grey-2: #f4f5f9 !default;
+$grey-3: #edf0f7 !default;
+$grey-4: #e6eaf3 !default;
+$grey-5: #d0d7e8 !default;
+$grey-6: #abb6cf !default;
+$grey-7: #a0abc6 !default;
+$grey-8: #7683a0 !default;
+$grey-9: #000000 !default;
+$grey-10: #d9d9d9 !default;
+
+$greys: () !default;
+$greys: map-merge(
+  (
+    '1': $grey-1,
+    '2': $grey-2,
+    '3': $grey-3,
+    '4': $grey-4,
+    '5': $grey-5,
+    '6': $grey-6,
+    '7': $grey-7,
+    '8': $grey-8,
+    '9': $grey-9,
+    '10': $grey-10,
+  ),
+  $greys
+);
+
+$text-white: $grey-1;
+$text-grey-light: $grey-7;
+$text-grey-dark: $grey-8;
+$text-blue-light: $blue-2;
+$text-blue: $blue-5;
+$text-blue-dark: $blue-9;
+$text-black: $grey-9;
+$text-success: #4bc37b;
+$text-error: #f43658;
+$text-warning: #f99c3a;
+
+$icon-white: $grey-1;
+$icon-blue-light: #9cb0df;
+$icon-blue: $blue-3;
+$icon-blue-dark: $blue-5;
+$icon-grey-light: #b3b5c2;
+$icon-grey-dark: #606060;
+
+$tag-success: #dbf3e5;
+$tag-error: #ffdee3;
+$tag-warning: #fde7cc;
+$tag-blue: $blue-1;
+$tag-grey-light: #edf0f7;
+$tag-grey-dark: #e6eaf3; 
+
+$modal-border-radius: 2px 2px 0px 0px;
+
+:export {
+}

@@ -1,0 +1,19 @@
+@import '../../assets/styles/variables';
+
+.container {
+  &--1 {
+    height: 64px;
+
+    &__col {
+      height: inherit;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 15px;
+    }
+  }
+
+  &--2 {
+    height: 48px;
+  }
+}

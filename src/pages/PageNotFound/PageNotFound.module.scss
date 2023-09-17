@@ -1,0 +1,42 @@
+@import '../../assets/styles/variables.scss';
+
+.wrapper {
+  text-align: center;
+  position: relative;
+
+  [class~='test-page-not-found__content'] {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    [class~='test-page-not-found__content__wrapper'] {
+      position: absolute !important;
+      top: 12% !important;
+
+      [class~='test-page-not-found__content__wrapper__title'] {
+        color: $text-blue-dark;
+        font-weight: bold;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+      }
+
+      [class~='test-page-not-found__content__wrapper__description'] {
+        margin-top: 16px;
+        color: $text-black;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+      }
+
+      [class~='test-page-not-found__content__wrapper__button'] {
+        margin-top: 24px;
+        background-color: $blue-5;
+        color: $text-white;
+        width: 243px;
+        border-radius: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.className {
+  z-index: 1001;
+  position: absolute;
+
+  &::before {
+    background: #e5e5e5;
+    opacity: 0.5;
+    content: '';
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+
+.spinner {
+  position: fixed;
+  display: inline-block;
+  opacity: 1;
+  left: 50%;
+  bottom: 50%;
+}

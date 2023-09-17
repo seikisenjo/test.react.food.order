@@ -1,0 +1,100 @@
+@import '../../assets/styles/variables';
+
+.wrapper {
+  &[class~='test-navbar-side'] {
+    z-index: 3;
+    background: $blue-8;
+    min-width: 100%;
+
+    [class~='test-navbar-side__logo__box'] {
+      background: $blue-8;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      padding: 0 18px;
+
+      &[class~='collapsed'] {
+        justify-content: center;
+      }
+    }
+
+    [class~='ant-layout-sider-zero-width-trigger'] {
+      width: 25px !important;
+      height: 25px !important;
+      inset-inline-end: -15px !important;
+      font-size: 15px !important;
+      border-radius: 16px !important;
+      border: 1px solid #e2e2e2 !important;
+      top: 30px !important;
+      background: $blue-8 !important;
+      color: $text-blue-light;
+    }
+
+    [class~='ant-menu-root'] {
+      height: calc(100% - 80px);
+      overflow: auto;
+      background: $blue-8;
+      color: $text-blue-light;
+    }
+
+    [class~='ant-menu-sub'],
+    [class~='ant-menu-item'] {
+      background: $blue-8 !important;
+    }
+
+    [class~='ant-menu-item-selected'] {
+      color: $text-white !important;
+    }
+
+    [class~='ant-menu-item-active'] {
+      background: $blue-7 !important;
+      color: $text-blue-light !important;
+    }
+
+    [class~='ant-menu-submenu'] {
+      li {
+        font-size: 12px;
+        height: 26px;
+
+        &[class~='ant-menu-item-selected']:before {
+          font: 70% sans-serif;
+          content: '⚈';
+          color: white;
+          position: absolute;
+          left: 24px;
+          top: 8px;
+        }
+
+        [class~='ant-menu-title-content'] {
+          height: 26px;
+          line-height: 15px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    [class~='ant-layout-sider-trigger'] {
+      display: none;
+    }
+  }
+}
+
+.submenu {
+  [class~='ant-menu'] {
+    background: $blue-8 !important;
+
+    [class~='ant-menu-item-active'] {
+      background: $blue-7 !important;
+      color: $text-blue-light !important;
+    }
+  }
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+[class~='ant-menu-inline-collapsed-tooltip'] a {
+  text-decoration: none;
+}
