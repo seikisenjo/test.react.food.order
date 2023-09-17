@@ -1,4 +1,4 @@
-react test App (Main page)
+[Incomplete / Template] React Test App (Main page) 
 
 ![image](https://github.com/seikisenjo/test.react.food.order/assets/76627702/35fe8bb5-964b-450a-bacf-a3e69efca581)
 
